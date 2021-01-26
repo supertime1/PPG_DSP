@@ -1,1 +1,55 @@
-<mxfile host="app.diagrams.net" modified="2021-01-26T21:42:47.399Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" version="14.2.7" etag="XK8VoO0Uufz9D1tv47KS" type="github"><diagram id="YiRZ1j0kCXhuioVK4hL9">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-01-26T22:07:44.775Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="ntBRkgZoYMijjXy_5p4s" version="14.2.7" type="github">
+  <diagram id="YiRZ1j0kCXhuioVK4hL9" name="Page-1">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nhHmiD-vkU7_qff4OOfj-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nhHmiD-vkU7_qff4OOfj-1" target="nhHmiD-vkU7_qff4OOfj-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nhHmiD-vkU7_qff4OOfj-1" value="Collect data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nhHmiD-vkU7_qff4OOfj-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nhHmiD-vkU7_qff4OOfj-2" target="nhHmiD-vkU7_qff4OOfj-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nhHmiD-vkU7_qff4OOfj-2" value="Clean data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nhHmiD-vkU7_qff4OOfj-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nhHmiD-vkU7_qff4OOfj-4" target="nhHmiD-vkU7_qff4OOfj-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nhHmiD-vkU7_qff4OOfj-4" value="Analyze data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nhHmiD-vkU7_qff4OOfj-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nhHmiD-vkU7_qff4OOfj-6" target="nhHmiD-vkU7_qff4OOfj-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nhHmiD-vkU7_qff4OOfj-6" value="Modeling" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nhHmiD-vkU7_qff4OOfj-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nhHmiD-vkU7_qff4OOfj-8" target="nhHmiD-vkU7_qff4OOfj-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nhHmiD-vkU7_qff4OOfj-8" value="1. Design study protocol/database with Clinical staffs to ensure the data quality:&lt;br&gt;a. HR: protocol such as screening and regular visits; actual test protocol (types of activities, test length, ground truth equipment, to ensure consistency and quality)&lt;br&gt;b. AF: protocol for outpatient, labeling the AF and data monitoring&lt;br&gt;c. BP: protocol of getting ground truth data&lt;br&gt;&lt;br&gt;&lt;br&gt;2. Work on development of data collection tools:&lt;br&gt;a. HR IBM clinical&lt;br&gt;b. AF software: signal quality indicator, data storage and backup;&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry y="30" width="270" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="nhHmiD-vkU7_qff4OOfj-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nhHmiD-vkU7_qff4OOfj-10" target="nhHmiD-vkU7_qff4OOfj-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nhHmiD-vkU7_qff4OOfj-10" value="1. HR: DeepPPG: PPG+ACC using both time and frequency domain data with a simple CNN (0.25 M parameters)&lt;br&gt;&lt;br&gt;&lt;br&gt;2. AF:&amp;nbsp; using both time and frequency domain data with a simple CNN (0.25 M parameters)&lt;br&gt;use PPG with/out ACC depends on final use case&lt;br&gt;&lt;br&gt;3. BP:&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="440" width="270" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="nhHmiD-vkU7_qff4OOfj-11" value="Evaluation/Visualization" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="320" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nhHmiD-vkU7_qff4OOfj-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nhHmiD-vkU7_qff4OOfj-14" target="nhHmiD-vkU7_qff4OOfj-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nhHmiD-vkU7_qff4OOfj-14" value="1. HR&lt;br&gt;&lt;br&gt;2. AF: &lt;br&gt;a. synchronization ECG and PPG (take the front and end 30s of PPG data to deal with sensor drift)&lt;br&gt;b. remove PPG data with a lot of motion artifacts&lt;br&gt;&lt;br&gt;3. BP" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="440" width="270" height="330" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
