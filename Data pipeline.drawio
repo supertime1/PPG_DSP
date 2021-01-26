@@ -1,26 +1,33 @@
-<mxfile host="app.diagrams.net" modified="2021-01-26T22:07:44.775Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="ntBRkgZoYMijjXy_5p4s" version="14.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-26T22:22:04.293Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="62HHCv0aKaaiHVwgyBWk" version="14.2.7" type="github">
   <diagram id="YiRZ1j0kCXhuioVK4hL9" name="Page-1">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="2522" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="nhHmiD-vkU7_qff4OOfj-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nhHmiD-vkU7_qff4OOfj-1" target="nhHmiD-vkU7_qff4OOfj-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="nhHmiD-vkU7_qff4OOfj-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="nhHmiD-vkU7_qff4OOfj-1" target="nhHmiD-vkU7_qff4OOfj-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="230" y="350" />
+              <mxPoint x="230" y="290" />
+              <mxPoint x="325" y="290" />
+              <mxPoint x="325" y="95" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="nhHmiD-vkU7_qff4OOfj-1" value="Collect data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="320" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="nhHmiD-vkU7_qff4OOfj-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nhHmiD-vkU7_qff4OOfj-2" target="nhHmiD-vkU7_qff4OOfj-4">
+        <mxCell id="nhHmiD-vkU7_qff4OOfj-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nhHmiD-vkU7_qff4OOfj-2" target="nhHmiD-vkU7_qff4OOfj-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nhHmiD-vkU7_qff4OOfj-2" value="Clean data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="270" y="320" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="nhHmiD-vkU7_qff4OOfj-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nhHmiD-vkU7_qff4OOfj-4" target="nhHmiD-vkU7_qff4OOfj-6">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="nhHmiD-vkU7_qff4OOfj-4" value="Analyze data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="470" y="320" width="120" height="60" as="geometry" />
+          <mxGeometry x="460" y="80" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nhHmiD-vkU7_qff4OOfj-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nhHmiD-vkU7_qff4OOfj-6" target="nhHmiD-vkU7_qff4OOfj-11">
           <mxGeometry relative="1" as="geometry" />
@@ -46,8 +53,14 @@
         <mxCell id="nhHmiD-vkU7_qff4OOfj-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nhHmiD-vkU7_qff4OOfj-14" target="nhHmiD-vkU7_qff4OOfj-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nhHmiD-vkU7_qff4OOfj-14" value="1. HR&lt;br&gt;&lt;br&gt;2. AF: &lt;br&gt;a. synchronization ECG and PPG (take the front and end 30s of PPG data to deal with sensor drift)&lt;br&gt;b. remove PPG data with a lot of motion artifacts&lt;br&gt;&lt;br&gt;3. BP" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="nhHmiD-vkU7_qff4OOfj-14" value="1. HR&lt;br&gt;&lt;br&gt;2. AF:&lt;br&gt;a. remove ECG data with a lot of motion artifacts done the ECG provider&lt;br&gt;b. synchronization ECG and PPG (take the front and end 30s of PPG data to deal with sensor drift)&lt;br&gt;c. labeled PPG with moderate motion artifacts:&lt;br&gt;i. if final application&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;br&gt;3. BP" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="190" y="440" width="270" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="nhHmiD-vkU7_qff4OOfj-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nhHmiD-vkU7_qff4OOfj-17" target="nhHmiD-vkU7_qff4OOfj-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nhHmiD-vkU7_qff4OOfj-17" value="Signal quality check" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="320" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
