@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-27T00:40:53.567Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="xdojcb0WMR3n8yEaVVRR" version="14.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-27T05:20:58.332Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="6jMYKH716RdV2qAB7Abv" version="14.2.7" type="github">
   <diagram id="YiRZ1j0kCXhuioVK4hL9" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -46,7 +46,7 @@
         <mxCell id="nhHmiD-vkU7_qff4OOfj-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nhHmiD-vkU7_qff4OOfj-10" target="nhHmiD-vkU7_qff4OOfj-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nhHmiD-vkU7_qff4OOfj-10" value="1. HR: DeepPPG: PPG+ACC using both time and frequency domain data (spectrogram) with a simple CNN (0.25 M parameters)&lt;br&gt;&lt;br&gt;&lt;br&gt;2. AF:&amp;nbsp; using both time and frequency domain data with a simple CNN (0.25 M parameters)&lt;br&gt;use PPG with ACC&amp;nbsp;&lt;br&gt;&lt;br&gt;3. BP:&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="nhHmiD-vkU7_qff4OOfj-10" value="1. HR: DeepPPG: PPG+ACC using both time and frequency domain data (spectrogram) with a simple CNN (0.25 M parameters)&lt;br&gt;&lt;br&gt;&lt;br&gt;2. AF:&amp;nbsp; using both time and frequency domain data with a simple CNN (0.25 M parameters)&lt;br&gt;use PPG with ACC&amp;nbsp;&lt;br&gt;&lt;br&gt;3. BP:&amp;nbsp;&lt;br&gt;&lt;br&gt;4. Autoencoder" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="730" y="530" width="190" height="240" as="geometry" />
         </mxCell>
         <mxCell id="nhHmiD-vkU7_qff4OOfj-11" value="Evaluation/Visualization" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
